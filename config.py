@@ -77,7 +77,7 @@ THUMBNAIL_LAYOUT = ""
 # qBittorrent/Aria2c
 TORRENT_TIMEOUT = 0
 BASE_URL = "http://159.223.232.215"
-BASE_URL_PORT = 2000
+BASE_URL_PORT = 80
 WEB_PINCODE = False
 # Queueing system
 QUEUE_ALL = 0
