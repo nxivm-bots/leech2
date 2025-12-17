@@ -60,7 +60,6 @@ from .core.handlers import add_handlers
 
 add_aria2_callbacks()
 create_help_buttons()
-add_handlers()
 
 LOGGER.info("Bot Started!")
 bot_loop.run_forever()
