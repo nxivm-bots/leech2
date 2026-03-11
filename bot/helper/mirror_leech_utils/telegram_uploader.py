@@ -132,15 +132,13 @@ class TelegramUploader:
 
     
     async def _prepare_file(self, file_, dirpath):
-
-    filename = ospath.splitext(file_)[0]
-    cap_mono = f"<code>{filename}.𝖯𝗈𝗐𝖾𝗋𝖾𝖽.𝖻𝗒↝🍀ᗷƖ໐໐ძ'ѕˊˎ-</code>"
-
-    if self._lprefix:
-        self._lprefix = re_sub("<.*?>", "", self._lprefix)
-        new_path = ospath.join(dirpath, f"{self._lprefix} {file_}")
-        await rename(self._up_path, new_path)
-        self._up_path = new_path
+        filename = ospath.splitext(file_)[0]
+        cap_mono = f"<code>{filename}.𝖯𝗈𝗐𝖾𝗋𝖾𝖽.𝖻𝗒↝🍀ᗷƖ໐໐ძ'ѕˊˎ-</code>"
+        if self._lprefix:
+            self._lprefix = re_sub("<.*?>", "", self._lprefix)
+            new_path = ospath.join(dirpath, f"{self._lprefix} {file_}")
+            await rename(self._up_path, new_path)
+            self._up_path = new_path
         else:
             cap_mono = f"<code>{filename}.𝖯𝗈𝗐𝖾𝗋𝖾𝖽.𝖻𝗒↝🍀ᗷƖ໐໐ძ'ѕˊˎ-</code>"
         if len(file_) > 60:
