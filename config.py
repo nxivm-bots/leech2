@@ -35,8 +35,8 @@ RCLONE_SERVE_PORT = 4444
 RCLONE_SERVE_USER = ""
 RCLONE_SERVE_PASS = ""
 # JDownloader
-JD_EMAIL = "nasibusr@gmail.com"
-JD_PASS = "Leech@111"
+JD_EMAIL = "zorrobot9@gmail.com"
+JD_PASS = "LK8Th]SP.jT$RfK"
 # Sabnzbd
 USENET_SERVERS = [
     {
