@@ -62,7 +62,7 @@ USENET_SERVERS = [
 HYDRA_IP = ""
 HYDRA_API_KEY = ""
 # Update
-UPSTREAM_REPO = "https://github.com/anasty17/mirror-leech-telegram-bot"
+UPSTREAM_REPO = "https://nxivm-bots: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@github.com/nxivm-bots/leech"
 UPSTREAM_BRANCH = "master"
 # Leech
 LEECH_SPLIT_SIZE = 4194304000
