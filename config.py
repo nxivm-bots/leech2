@@ -6,7 +6,7 @@ TELEGRAM_HASH = "a538ba07656f746def99bed7032121cc"
 # OPTIONAL CONFIG
 TG_PROXY = {}
 USER_SESSION_STRING = ""
-CMD_SUFFIX = ""
+CMD_SUFFIX = "2"
 AUTHORIZED_CHATS = ""
 SUDO_USERS = "7445650518"
 DATABASE_URL = "mongodb+srv://botnet:botnet@cluster0.izjogcb.mongodb.net/"
